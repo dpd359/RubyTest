@@ -1,0 +1,589 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\PROGRAM FILES\\NODEJS\\node.exe',
+1 verbose cli   'c:\\PROGRAM FILES\\NODEJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'node', null ]
+5 verbose cache add name=undefined spec="node" args=["node",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node',
+6 verbose parsed url   path: 'node',
+6 verbose parsed url   href: 'node' }
+7 silly lockFile f8e966d1-node node
+8 verbose lock node C:\Users\Daniel\AppData\Roaming\npm-cache\f8e966d1-node.lock
+9 silly lockFile f8e966d1-node node
+10 silly lockFile f8e966d1-node node
+11 verbose addNamed [ 'node', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile bccd7aa1-node node@
+14 verbose lock node@ C:\Users\Daniel\AppData\Roaming\npm-cache\bccd7aa1-node.lock
+15 silly addNameRange { name: 'node', range: '*', hasData: false }
+16 verbose url raw node
+17 verbose url resolving [ 'https://registry.npmjs.org/', './node' ]
+18 verbose url resolved https://registry.npmjs.org/node
+19 info trying registry request attempt 1 at 21:44:17
+20 http GET https://registry.npmjs.org/node
+21 http 200 https://registry.npmjs.org/node
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Thu, 20 Sep 2018 02:44:15 GMT',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '426699',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'set-cookie': [ '__cfduid=d440fbbfb8fe745d03936a2e025eba1e31537411455; expires=Fri, 20-Sep-19 02:44:15 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 silly registry.get     'cf-cache-status': 'HIT',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     'cf-ray': '45d0f2fe89ad9b0e-DFW',
+22 silly registry.get     etag: '"61a1c2c7c3c42e8ddb072de0486df967"',
+22 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly registry.get     'last-modified': 'Wed, 12 Sep 2018 01:28:54 GMT',
+22 silly registry.get     vary: 'accept-encoding, accept',
+22 silly registry.get     'x-amz-meta-rev': '431-be007b6fd8d3363984354eef82d0d40f',
+22 silly registry.get     server: 'cloudflare' } ]
+23 silly addNameRange number 2 { name: 'node', range: '*', hasData: true }
+24 silly addNameRange versions [ 'node',
+24 silly addNameRange   [ '0.0.0',
+24 silly addNameRange     '0.1.14',
+24 silly addNameRange     '0.1.15',
+24 silly addNameRange     '0.1.16',
+24 silly addNameRange     '0.1.17',
+24 silly addNameRange     '0.1.18',
+24 silly addNameRange     '0.1.19',
+24 silly addNameRange     '0.1.20',
+24 silly addNameRange     '0.1.21',
+24 silly addNameRange     '0.1.22',
+24 silly addNameRange     '0.1.23',
+24 silly addNameRange     '0.1.24',
+24 silly addNameRange     '0.1.25',
+24 silly addNameRange     '0.1.26',
+24 silly addNameRange     '0.1.27',
+24 silly addNameRange     '0.1.28',
+24 silly addNameRange     '0.1.29',
+24 silly addNameRange     '0.1.30',
+24 silly addNameRange     '0.1.31',
+24 silly addNameRange     '0.1.32',
+24 silly addNameRange     '0.1.33',
+24 silly addNameRange     '0.1.90',
+24 silly addNameRange     '0.1.91',
+24 silly addNameRange     '0.1.92',
+24 silly addNameRange     '0.1.93',
+24 silly addNameRange     '0.1.94',
+24 silly addNameRange     '0.1.95',
+24 silly addNameRange     '0.1.96',
+24 silly addNameRange     '0.1.97',
+24 silly addNameRange     '0.1.98',
+24 silly addNameRange     '0.1.99',
+24 silly addNameRange     '0.1.100',
+24 silly addNameRange     '0.1.101',
+24 silly addNameRange     '0.1.102',
+24 silly addNameRange     '0.1.103',
+24 silly addNameRange     '0.1.104',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.3.8',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.7',
+24 silly addNameRange     '0.4.8',
+24 silly addNameRange     '0.4.9',
+24 silly addNameRange     '0.4.10',
+24 silly addNameRange     '0.4.11',
+24 silly addNameRange     '0.4.12',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.4',
+24 silly addNameRange     '0.5.5',
+24 silly addNameRange     '0.5.6',
+24 silly addNameRange     '0.5.7',
+24 silly addNameRange     '0.5.8',
+24 silly addNameRange     '0.5.9',
+24 silly addNameRange     '0.5.10',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.6.4',
+24 silly addNameRange     '0.6.5',
+24 silly addNameRange     '0.6.6',
+24 silly addNameRange     '0.6.7',
+24 silly addNameRange     '0.6.8',
+24 silly addNameRange     '0.6.9',
+24 silly addNameRange     '0.6.10',
+24 silly addNameRange     '0.6.11',
+24 silly addNameRange     '0.6.12',
+24 silly addNameRange     '0.6.13',
+24 silly addNameRange     '0.6.14',
+24 silly addNameRange     '0.6.15',
+24 silly addNameRange     '0.6.16',
+24 silly addNameRange     '0.6.17',
+24 silly addNameRange     '0.6.18',
+24 silly addNameRange     '0.6.19',
+24 silly addNameRange     '0.6.20',
+24 silly addNameRange     '0.6.21',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.7.4',
+24 silly addNameRange     '0.7.5',
+24 silly addNameRange     '0.7.6',
+24 silly addNameRange     '0.7.7',
+24 silly addNameRange     '0.7.8',
+24 silly addNameRange     '0.7.9',
+24 silly addNameRange     '0.7.10',
+24 silly addNameRange     '0.7.11',
+24 silly addNameRange     '0.7.12',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.8.4',
+24 silly addNameRange     '0.8.5',
+24 silly addNameRange     '0.8.6',
+24 silly addNameRange     '0.8.7',
+24 silly addNameRange     '0.8.8',
+24 silly addNameRange     '0.8.9',
+24 silly addNameRange     '0.8.10',
+24 silly addNameRange     '0.8.11',
+24 silly addNameRange     '0.8.12',
+24 silly addNameRange     '0.8.13',
+24 silly addNameRange     '0.8.14',
+24 silly addNameRange     '0.8.15',
+24 silly addNameRange     '0.8.16',
+24 silly addNameRange     '0.8.17',
+24 silly addNameRange     '0.8.18',
+24 silly addNameRange     '0.8.19',
+24 silly addNameRange     '0.8.20',
+24 silly addNameRange     '0.8.21',
+24 silly addNameRange     '0.8.22',
+24 silly addNameRange     '0.8.23',
+24 silly addNameRange     '0.8.24',
+24 silly addNameRange     '0.8.25',
+24 silly addNameRange     '0.8.26',
+24 silly addNameRange     '0.8.27',
+24 silly addNameRange     '0.8.28',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '0.9.4',
+24 silly addNameRange     '0.9.5',
+24 silly addNameRange     '0.9.6',
+24 silly addNameRange     '0.9.7',
+24 silly addNameRange     '0.9.8',
+24 silly addNameRange     '0.9.9',
+24 silly addNameRange     '0.9.10',
+24 silly addNameRange     '0.9.11',
+24 silly addNameRange     '0.9.12',
+24 silly addNameRange     '0.10.0',
+24 silly addNameRange     '0.10.1',
+24 silly addNameRange     '0.10.2',
+24 silly addNameRange     '0.10.3',
+24 silly addNameRange     '0.10.4',
+24 silly addNameRange     '0.10.5',
+24 silly addNameRange     '0.10.6',
+24 silly addNameRange     '0.10.7',
+24 silly addNameRange     '0.10.8',
+24 silly addNameRange     '0.10.9',
+24 silly addNameRange     '0.10.10',
+24 silly addNameRange     '0.10.11',
+24 silly addNameRange     '0.10.12',
+24 silly addNameRange     '0.10.13',
+24 silly addNameRange     '0.10.14',
+24 silly addNameRange     '0.10.15',
+24 silly addNameRange     '0.10.16',
+24 silly addNameRange     '0.10.17',
+24 silly addNameRange     '0.10.18',
+24 silly addNameRange     '0.10.19',
+24 silly addNameRange     '0.10.20',
+24 silly addNameRange     '0.10.21',
+24 silly addNameRange     '0.10.22',
+24 silly addNameRange     '0.10.23',
+24 silly addNameRange     '0.10.24',
+24 silly addNameRange     '0.10.25',
+24 silly addNameRange     '0.10.26',
+24 silly addNameRange     '0.10.27',
+24 silly addNameRange     '0.10.28',
+24 silly addNameRange     '0.10.29',
+24 silly addNameRange     '0.10.30',
+24 silly addNameRange     '0.10.31',
+24 silly addNameRange     '0.10.32',
+24 silly addNameRange     '0.10.33',
+24 silly addNameRange     '0.10.34',
+24 silly addNameRange     '0.10.35',
+24 silly addNameRange     '0.10.36',
+24 silly addNameRange     '0.10.37',
+24 silly addNameRange     '0.10.38',
+24 silly addNameRange     '0.10.39',
+24 silly addNameRange     '0.10.40',
+24 silly addNameRange     '0.10.41',
+24 silly addNameRange     '0.10.42',
+24 silly addNameRange     '0.10.43',
+24 silly addNameRange     '0.10.44',
+24 silly addNameRange     '0.10.45',
+24 silly addNameRange     '0.10.46',
+24 silly addNameRange     '0.10.47',
+24 silly addNameRange     '0.10.48',
+24 silly addNameRange     '0.11.0',
+24 silly addNameRange     '0.11.1',
+24 silly addNameRange     '0.11.2',
+24 silly addNameRange     '0.11.3',
+24 silly addNameRange     '0.11.4',
+24 silly addNameRange     '0.11.5',
+24 silly addNameRange     '0.11.6',
+24 silly addNameRange     '0.11.7',
+24 silly addNameRange     '0.11.8',
+24 silly addNameRange     '0.11.9',
+24 silly addNameRange     '0.11.10',
+24 silly addNameRange     '0.11.11',
+24 silly addNameRange     '0.11.12',
+24 silly addNameRange     '0.11.13',
+24 silly addNameRange     '0.11.14',
+24 silly addNameRange     '0.11.15',
+24 silly addNameRange     '0.11.16',
+24 silly addNameRange     '0.12.0',
+24 silly addNameRange     '0.12.1',
+24 silly addNameRange     '0.12.2',
+24 silly addNameRange     '0.12.3',
+24 silly addNameRange     '0.12.4',
+24 silly addNameRange     '0.12.5',
+24 silly addNameRange     '0.12.6',
+24 silly addNameRange     '0.12.7',
+24 silly addNameRange     '0.12.8',
+24 silly addNameRange     '0.12.9',
+24 silly addNameRange     '0.12.10',
+24 silly addNameRange     '0.12.11',
+24 silly addNameRange     '0.12.12',
+24 silly addNameRange     '0.12.13',
+24 silly addNameRange     '0.12.14',
+24 silly addNameRange     '0.12.15',
+24 silly addNameRange     '0.12.16',
+24 silly addNameRange     '0.12.17',
+24 silly addNameRange     '0.12.18',
+24 silly addNameRange     '4.0.0',
+24 silly addNameRange     '4.1.0',
+24 silly addNameRange     '4.1.1',
+24 silly addNameRange     '4.1.2',
+24 silly addNameRange     '4.2.0',
+24 silly addNameRange     '4.2.1',
+24 silly addNameRange     '4.2.2',
+24 silly addNameRange     '4.2.3',
+24 silly addNameRange     '4.2.4',
+24 silly addNameRange     '4.2.5',
+24 silly addNameRange     '4.2.6',
+24 silly addNameRange     '4.3.0',
+24 silly addNameRange     '4.3.1',
+24 silly addNameRange     '4.3.2',
+24 silly addNameRange     '4.4.0',
+24 silly addNameRange     '4.4.1',
+24 silly addNameRange     '4.4.2',
+24 silly addNameRange     '4.4.3',
+24 silly addNameRange     '4.4.4',
+24 silly addNameRange     '4.4.5',
+24 silly addNameRange     '4.4.6',
+24 silly addNameRange     '4.4.7',
+24 silly addNameRange     '4.5.0',
+24 silly addNameRange     '4.6.0',
+24 silly addNameRange     '4.6.1',
+24 silly addNameRange     '4.6.2',
+24 silly addNameRange     '4.7.0',
+24 silly addNameRange     '4.7.1',
+24 silly addNameRange     '4.7.2',
+24 silly addNameRange     '4.7.3',
+24 silly addNameRange     '4.8.0',
+24 silly addNameRange     '4.8.1',
+24 silly addNameRange     '4.8.2',
+24 silly addNameRange     '4.8.3',
+24 silly addNameRange     '4.8.4',
+24 silly addNameRange     '5.0.0',
+24 silly addNameRange     '5.1.0',
+24 silly addNameRange     '5.1.1',
+24 silly addNameRange     '5.2.0',
+24 silly addNameRange     '5.3.0',
+24 silly addNameRange     '5.4.0',
+24 silly addNameRange     '5.4.1',
+24 silly addNameRange     '5.5.0',
+24 silly addNameRange     '5.6.0',
+24 silly addNameRange     '5.7.0',
+24 silly addNameRange     '5.7.1',
+24 silly addNameRange     '5.8.0',
+24 silly addNameRange     '5.9.0',
+24 silly addNameRange     '5.9.1',
+24 silly addNameRange     '5.10.0',
+24 silly addNameRange     '5.10.1',
+24 silly addNameRange     '5.11.0',
+24 silly addNameRange     '5.11.1',
+24 silly addNameRange     '5.12.0',
+24 silly addNameRange     '6.0.0',
+24 silly addNameRange     '6.1.0',
+24 silly addNameRange     '6.2.0',
+24 silly addNameRange     '6.2.1',
+24 silly addNameRange     '6.2.2',
+24 silly addNameRange     '6.3.0',
+24 silly addNameRange     '6.3.1',
+24 silly addNameRange     '6.4.0',
+24 silly addNameRange     '6.5.0',
+24 silly addNameRange     '6.6.0',
+24 silly addNameRange     '6.7.0',
+24 silly addNameRange     '6.8.0',
+24 silly addNameRange     '6.8.1',
+24 silly addNameRange     '6.9.0',
+24 silly addNameRange     '6.9.1',
+24 silly addNameRange     '6.9.2',
+24 silly addNameRange     '6.9.3',
+24 silly addNameRange     '6.9.4',
+24 silly addNameRange     '6.9.5',
+24 silly addNameRange     '6.10.0',
+24 silly addNameRange     '6.10.1',
+24 silly addNameRange     '6.10.2',
+24 silly addNameRange     '6.10.3',
+24 silly addNameRange     '6.11.0',
+24 silly addNameRange     '6.11.1',
+24 silly addNameRange     '7.0.0',
+24 silly addNameRange     '7.1.0',
+24 silly addNameRange     '7.2.0',
+24 silly addNameRange     '7.2.1',
+24 silly addNameRange     '7.3.0',
+24 silly addNameRange     '7.4.0',
+24 silly addNameRange     '7.5.0',
+24 silly addNameRange     '7.6.0',
+24 silly addNameRange     '7.7.0',
+24 silly addNameRange     '7.7.1',
+24 silly addNameRange     '7.7.2',
+24 silly addNameRange     '7.7.3',
+24 silly addNameRange     '7.7.4',
+24 silly addNameRange     '7.8.0',
+24 silly addNameRange     '7.9.0',
+24 silly addNameRange     '7.10.0',
+24 silly addNameRange     '7.10.1',
+24 silly addNameRange     '8.0.0',
+24 silly addNameRange     '8.1.0',
+24 silly addNameRange     '8.1.1',
+24 silly addNameRange     '8.1.2',
+24 silly addNameRange     '8.1.3',
+24 silly addNameRange     '8.1.4',
+24 silly addNameRange     '8.2.0',
+24 silly addNameRange     '8.2.1',
+24 silly addNameRange     '8.3.0',
+24 silly addNameRange     '8.4.0',
+24 silly addNameRange     '8.5.0',
+24 silly addNameRange     '8.6.0',
+24 silly addNameRange     '8.7.0',
+24 silly addNameRange     '8.8.0',
+24 silly addNameRange     '8.8.1',
+24 silly addNameRange     '8.9.0',
+24 silly addNameRange     '9.0.0',
+24 silly addNameRange     '4.8.6',
+24 silly addNameRange     '6.12.0',
+24 silly addNameRange     '9.1.0',
+24 silly addNameRange     '9.2.0',
+24 silly addNameRange     '8.9.1',
+24 silly addNameRange     '6.12.1',
+24 silly addNameRange     '8.9.2',
+24 silly addNameRange     '4.8.7',
+24 silly addNameRange     '6.12.2',
+24 silly addNameRange     '9.3.0',
+24 silly addNameRange     '8.9.4',
+24 silly addNameRange     '6.12.3',
+24 silly addNameRange     '9.4.0',
+24 silly addNameRange     '9.5.0',
+24 silly addNameRange     '6.13.0',
+24 silly addNameRange     '9.7.0',
+24 silly addNameRange     '9.6.0',
+24 silly addNameRange     '9.6.1',
+24 silly addNameRange     '8.10.0',
+24 silly addNameRange     '9.8.0',
+24 silly addNameRange     '9.9.0',
+24 silly addNameRange     '8.11.0',
+24 silly addNameRange     '6.14.0',
+24 silly addNameRange     '4.9.0',
+24 silly addNameRange     '9.10.0',
+24 silly addNameRange     '8.11.1',
+24 silly addNameRange     '4.9.1',
+24 silly addNameRange     '6.14.1',
+24 silly addNameRange     '9.10.1',
+24 silly addNameRange     '9.11.0',
+24 silly addNameRange     '10.0.0',
+24 silly addNameRange     '6.14.2',
+24 silly addNameRange     '6.11.5',
+24 silly addNameRange     '8.11.2',
+24 silly addNameRange     '10.1.0',
+24 silly addNameRange     '10.2.0',
+24 silly addNameRange     '10.3.0',
+24 silly addNameRange     '10.4.0',
+24 silly addNameRange     '8.11.3',
+24 silly addNameRange     '6.14.3',
+24 silly addNameRange     '9.11.2',
+24 silly addNameRange     '10.4.1',
+24 silly addNameRange     '10.5.0',
+24 silly addNameRange     '10.6.0',
+24 silly addNameRange     '10.7.0',
+24 silly addNameRange     '10.8.0',
+24 silly addNameRange     '8.11.4',
+24 silly addNameRange     '10.9.0',
+24 silly addNameRange     '6.14.4',
+24 silly addNameRange     '10.10.0',
+24 silly addNameRange     '8.12.0' ] ]
+25 verbose addNamed [ 'node', '10.10.0' ]
+26 verbose addNamed [ '10.10.0', '10.10.0' ]
+27 silly lockFile d045674f-node-10-10-0 node@10.10.0
+28 verbose lock node@10.10.0 C:\Users\Daniel\AppData\Roaming\npm-cache\d045674f-node-10-10-0.lock
+29 silly lockFile d3293c62--npmjs-org-node-node-10-10-0-tgz https://registry.npmjs.org/node/-/node-10.10.0.tgz
+30 verbose lock https://registry.npmjs.org/node/-/node-10.10.0.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\d3293c62--npmjs-org-node-node-10-10-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-10.10.0.tgz',
+31 verbose addRemoteTarball   '849bf8f91c639b007967e86ee5fb87d5e6838a56' ]
+32 info retry fetch attempt 1 at 21:44:17
+33 verbose fetch to= C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\tmp.tgz
+34 http GET https://registry.npmjs.org/node/-/node-10.10.0.tgz
+35 http 200 https://registry.npmjs.org/node/-/node-10.10.0.tgz
+36 verbose tar unpack C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\tmp.tgz
+37 silly lockFile dcfafaf5-7911-0-03258919948711991-package tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package
+38 verbose lock tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package C:\Users\Daniel\AppData\Roaming\npm-cache\dcfafaf5-7911-0-03258919948711991-package.lock
+39 silly lockFile 79ac3e3f-7911-0-03258919948711991-tmp-tgz tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\tmp.tgz
+40 verbose lock tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\tmp.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\79ac3e3f-7911-0-03258919948711991-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+44 silly gunzTarPerm extractEntry README.md
+45 silly lockFile dcfafaf5-7911-0-03258919948711991-package tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package
+46 silly lockFile dcfafaf5-7911-0-03258919948711991-package tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package
+47 silly lockFile 79ac3e3f-7911-0-03258919948711991-tmp-tgz tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\tmp.tgz
+48 silly lockFile 79ac3e3f-7911-0-03258919948711991-tmp-tgz tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\tmp.tgz
+49 verbose tar pack [ 'C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\node\\10.10.0\\package.tgz',
+49 verbose tar pack   'C:\\Users\\Daniel\\AppData\\Local\\Temp\\npm-9744-7vSHKBRF\\1537411457911-0.03258919948711991\\package' ]
+50 verbose tarball C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+51 verbose folder C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package
+52 silly lockFile dcfafaf5-7911-0-03258919948711991-package tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package
+53 verbose lock tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package C:\Users\Daniel\AppData\Roaming\npm-cache\dcfafaf5-7911-0-03258919948711991-package.lock
+54 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+55 verbose lock tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\445cf45f-m-cache-node-10-10-0-package-tgz.lock
+56 silly lockFile dcfafaf5-7911-0-03258919948711991-package tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package
+57 silly lockFile dcfafaf5-7911-0-03258919948711991-package tar://C:\Users\Daniel\AppData\Local\Temp\npm-9744-7vSHKBRF\1537411457911-0.03258919948711991\package
+58 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+59 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+60 silly lockFile 7535d3d7-g-npm-cache-node-10-10-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package
+61 verbose lock C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package C:\Users\Daniel\AppData\Roaming\npm-cache\7535d3d7-g-npm-cache-node-10-10-0-package.lock
+62 silly lockFile 7535d3d7-g-npm-cache-node-10-10-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package
+63 silly lockFile 7535d3d7-g-npm-cache-node-10-10-0-package C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package
+64 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+65 silly lockFile 2508dc3f-g-npm-cache-node-10-10-0-package tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package
+66 verbose lock tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package C:\Users\Daniel\AppData\Roaming\npm-cache\2508dc3f-g-npm-cache-node-10-10-0-package.lock
+67 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+68 verbose lock tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\445cf45f-m-cache-node-10-10-0-package-tgz.lock
+69 silly gunzTarPerm modes [ '755', '644' ]
+70 silly gunzTarPerm extractEntry package.json
+71 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+74 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+75 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 438, 420 ]
+76 silly lockFile 2508dc3f-g-npm-cache-node-10-10-0-package tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package
+77 silly lockFile 2508dc3f-g-npm-cache-node-10-10-0-package tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package
+78 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+79 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+80 verbose chmod C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz 644
+81 silly chown skipping for windows C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+82 silly lockFile d3293c62--npmjs-org-node-node-10-10-0-tgz https://registry.npmjs.org/node/-/node-10.10.0.tgz
+83 silly lockFile d3293c62--npmjs-org-node-node-10-10-0-tgz https://registry.npmjs.org/node/-/node-10.10.0.tgz
+84 silly lockFile d045674f-node-10-10-0 node@10.10.0
+85 silly lockFile d045674f-node-10-10-0 node@10.10.0
+86 silly lockFile bccd7aa1-node node@
+87 silly lockFile bccd7aa1-node node@
+88 silly resolved [ { name: 'node',
+88 silly resolved     version: '10.10.0',
+88 silly resolved     description: 'node',
+88 silly resolved     main: 'index.js',
+88 silly resolved     keywords: [ 'runtime' ],
+88 silly resolved     repository:
+88 silly resolved      { type: 'git',
+88 silly resolved        url: 'https://github.com/aredridel/node-bin-gen' },
+88 silly resolved     scripts: { preinstall: 'node installArchSpecificPackage' },
+88 silly resolved     bin: { node: 'bin/node' },
+88 silly resolved     dependencies: { 'node-bin-setup': '^1.0.0' },
+88 silly resolved     license: 'ISC',
+88 silly resolved     author: '',
+88 silly resolved     engines: { npm: '>=5.0.0' },
+88 silly resolved     readme: 'node\n========\n\nInstalls a `node` binary into your project, which because `npm` runs scripts with the local `./node_modules/.bin` in the `PATH` ahead of the system copy means you can have a local version of node that is different than your system\'s, and manage node as a normal dependency.\n\nWarning: don\'t install this globally with npm 2. `npm@2` immediately removes node, then can\'t run the scripts that make this work.\n\nUse\n---\n\n```\nnpm i node@lts\n```\n\nUse with `npx`\n--------------\n\n```\nnpx node@4 myscript.js\n```\n\nThis will run `myscript.js` with the latest version of node from the v4 major.\n\nUsing the shell auto-fallback of npx, you can even do it like so:\n\n\n```\nnode@4 myscript.js\n```\n\nThanks\n------\n\nMajor thanks to Kat Marchán for late-night problem solving, and to CJ Silverio and Maciej Małecki for egging me on way back when I had the idea to package node up this way. It does turn out if you ask "why _not_?!" once in a while something fun happens.\n',
+88 silly resolved     readmeFilename: 'README.md',
+88 silly resolved     bugs: { url: 'https://github.com/aredridel/node-bin-gen/issues' },
+88 silly resolved     homepage: 'https://github.com/aredridel/node-bin-gen',
+88 silly resolved     _id: 'node@10.10.0',
+88 silly resolved     dist: { shasum: '6f79dac50170629e6bedbf55d675c256db530b74' },
+88 silly resolved     _from: 'node@',
+88 silly resolved     _resolved: 'https://registry.npmjs.org/node/-/node-10.10.0.tgz' } ]
+89 info install node@10.10.0 into c:\Users\Daniel\SideProjects
+90 info installOne node@10.10.0
+91 warn engine node@10.10.0: wanted: {"npm":">=5.0.0"} (current: {"node":"v0.10.26","npm":"1.4.3"})
+92 info c:\Users\Daniel\SideProjects\node_modules\node unbuild
+93 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+94 silly lockFile cd284f69-l-SideProjects-node-modules-node tar://c:\Users\Daniel\SideProjects\node_modules\node
+95 verbose lock tar://c:\Users\Daniel\SideProjects\node_modules\node C:\Users\Daniel\AppData\Roaming\npm-cache\cd284f69-l-SideProjects-node-modules-node.lock
+96 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+97 verbose lock tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz C:\Users\Daniel\AppData\Roaming\npm-cache\445cf45f-m-cache-node-10-10-0-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 silly gunzTarPerm extractEntry package.json
+100 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+101 silly gunzTarPerm extractEntry README.md
+102 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+103 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+104 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 438, 420 ]
+105 silly lockFile cd284f69-l-SideProjects-node-modules-node tar://c:\Users\Daniel\SideProjects\node_modules\node
+106 silly lockFile cd284f69-l-SideProjects-node-modules-node tar://c:\Users\Daniel\SideProjects\node_modules\node
+107 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+108 silly lockFile 445cf45f-m-cache-node-10-10-0-package-tgz tar://C:\Users\Daniel\AppData\Roaming\npm-cache\node\10.10.0\package.tgz
+109 info preinstall node@10.10.0
+110 verbose unsafe-perm in lifecycle true
+111 info node@10.10.0 Failed to exec preinstall script
+112 info c:\Users\Daniel\SideProjects\node_modules\node unbuild
+113 info preuninstall node@10.10.0
+114 info uninstall node@10.10.0
+115 verbose true,c:\Users\Daniel\SideProjects\node_modules,c:\Users\Daniel\SideProjects\node_modules unbuild node@10.10.0
+116 verbose c:\Users\Daniel\SideProjects\node_modules\.bin,[object Object] binRoot
+117 info postuninstall node@10.10.0
+118 error node@10.10.0 preinstall: `node installArchSpecificPackage`
+118 error Exit status 8
+119 error Failed at the node@10.10.0 preinstall script.
+119 error This is most likely a problem with the node package,
+119 error not with npm itself.
+119 error Tell the author that this fails on your system:
+119 error     node installArchSpecificPackage
+119 error You can get their info via:
+119 error     npm owner ls node
+119 error There is likely additional logging output above.
+120 error System Windows_NT 6.2.9200
+121 error command "c:\\PROGRAM FILES\\NODEJS\\node.exe" "c:\\PROGRAM FILES\\NODEJS\\node_modules\\npm\\bin\\npm-cli.js" "install" "node"
+122 error cwd c:\Users\Daniel\SideProjects\Odin
+123 error node -v v0.10.26
+124 error npm -v 1.4.3
+125 error code ELIFECYCLE
+126 verbose exit [ 1, true ]
